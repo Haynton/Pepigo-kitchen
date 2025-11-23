@@ -1,16 +1,16 @@
 .card {
     padding: 50px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--border-color);
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 } 
 .card h3 {
     margin-bottom: 15px;
     font-size: 1.2em;
-    color: #333333;
+    color: var(--text-primary-color);
 }
 .card p {
     font-size: 1em;
-    color: #666666;
+    color: var(--text-secondary-color);
     line-height: 1.6;
 }   

@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-   .info-container {
+   .info-container, .testimonial-container  {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
@@ -9,4 +9,5 @@
     .grid-3 {
         grid-area: auto; /* Réinitialise le placement */
     }
+
 }

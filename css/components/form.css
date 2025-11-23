@@ -1,0 +1,23 @@
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.contact-form input, textarea {
+    padding: 16px 20px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 15px;
+}
+.contact-form input:focus, textarea:focus {
+    outline: 2px solid var(--secondary-color);
+}
+.contact-form textarea {
+    min-height: 150px;
+}
+.contact-form label {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--text-secondary-color);
+}

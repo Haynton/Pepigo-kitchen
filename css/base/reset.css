@@ -8,3 +8,7 @@ button {
   all: unset;
   cursor: pointer;
 }
+input, textarea {
+  all: unset;
+  cursor: text;
+}
