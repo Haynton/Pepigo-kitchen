@@ -1,0 +1,12 @@
+@media (max-width: 990px) {
+   .info-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    
+    .grid-1,
+    .grid-2,
+    .grid-3 {
+        grid-area: auto; /* Réinitialise le placement */
+    }
+}
