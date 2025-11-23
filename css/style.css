@@ -9,12 +9,17 @@
 /* Layout Import */
 @import url('./layout/section-hero.css');
 @import url('./layout/section-information.css');
+@import url('./layout/section-testimonial.css');
+@import url('./layout/section-contact.css');
 
 
 /* Components Import */
 @import url('./components/button.css');
 @import url('./components/card.css');
+@import url('./components/stars-rating.css');
+@import url('./components/form.css');
 
 
 /* Utilities Import */
+@import url('./utilities/helpers.css');
 @import url('./utilities/responsive.css');

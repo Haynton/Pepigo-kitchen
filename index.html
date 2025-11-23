@@ -9,21 +9,6 @@
 <body>
     <section class="section-hero">
         <div class="hero-content">
-            <div class="hero-content-text">
-                <h1>Pepigo Kitchen</h1>
-                <p>Votre cuisine professionnelle partagée à Nantes</p>
-                <a href="#section-information" class="btn-primary">En savoir plus</a>
-            </div>
-            <div class="hero-content-image-1">
-                <img src="./images/hero-kitchen.jpg" alt="Cuisine professionnelle Pepigo Kitchen">
-            </div>
-            <div class="hero-content-image-2">
-                <img src="./images/hero-chef.jpg" alt="Chef cuisinant dans la cuisine Pepigo Kitchen">      
-            </div>
-            <div class="hero-content-image-3">
-                <img src="./images/hero-group.jpg" alt="Groupe de personnes cuisinant ensemble dans la cuisine Pepigo Kitchen"> 
-            </div>
-
        </div>
     </section>
     <section class="section-about"></section>
@@ -50,17 +35,42 @@
     <section class="section-services"></section>
     <section class="section-pricing"></section>
     <section class="section-testimonials">
-        <div class="testimonial">
-            <p class="testimonial-text">"Pepigo Kitchen a transformé notre façon de cuisiner et de partager des repas. Un espace incroyable et une communauté chaleureuse!"</p>
-            <p class="testimonial-author">- Marie D.</p>
-        </div>
-        <div class="testimonial">
-            <p class="testimonial-text">"L'endroit parfait pour les chefs en herbe. Les installations sont top et l'ambiance est conviviale."</p>
-            <p class="testimonial-author">- Julien R.</p>
-        </div>
-        <div class="testimonial">
-            <p class="testimonial-text">"J'adore venir ici pour cuisiner avec mes amis. C'est comme avoir une cuisine professionnelle à portée de main!"</p>
-            <p class="testimonial-author">- Sophie L.</p>
+        <h2>Nos clients parlent de nous</h2>
+        <p>Découvrez ce que nos clients disent de notre cuisine partagée.</p>
+        <div class="testimonial-container">
+            <div class="card testimonial">
+                <div class="stars-rating">
+                    <span class="star full">★</span>
+                    <span class="star full">★</span>
+                    <span class="star full">★</span>
+                    <span class="star full">★</span>
+                    <span class="star half">★</span>
+                </div>
+                <p class="testimonial-text">"Pepigo Kitchen a transformé notre façon de cuisiner et de partager des repas. Un espace incroyable et une communauté chaleureuse!"</p>
+                <p class="testimonial-author">Manon de M'Kitchen</p>
+            </div>
+            <div class="card testimonial">
+                <div class="stars-rating">
+                    <span class="star full">★</span>
+                    <span class="star full">★</span>
+                    <span class="star full">★</span>
+                    <span class="star full">★</span>
+                    <span class="star">★</span>
+                </div>
+                <p class="testimonial-text">"L'endroit parfait pour les chefs en herbe. Les installations sont top et l'ambiance est conviviale."</p>
+                <p class="testimonial-author">Julien R.</p>
+            </div>
+            <div class="card testimonial">
+                <div class="stars-rating">
+                    <span class="star full">★</span>
+                    <span class="star full">★</span>
+                    <span class="star full">★</span>
+                    <span class="star full">★</span>
+                    <span class="star full">★</span>
+                </div>
+                <p class="testimonial-text">"J'adore venir ici pour cuisiner avec mes amis. C'est comme avoir une cuisine professionnelle à portée de main!"</p>
+                <p class="testimonial-author">Sophie L.</p>
+            </div>
         </div>       
     </section>
     <section class="section-contact">
@@ -76,7 +86,7 @@
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
 
-                <button type="submit">Envoyer</button>
+                <button type="submit" class="primary-btn">Envoyer le message</button>
             </form>
         </div>
     </section>
