@@ -1,17 +1,13 @@
 @media (max-width: 768px) {
-   .info-container, .testimonial-container, .contact-container {
+   .info-container, .testimonial-container, .contact-container, .form-fields-container {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
-    
-    .grid-1,
-    .grid-2,
-    .grid-3 {
-        grid-area: auto; /* Réinitialise le placement */
-    }
-    .form-fields-container {
-        display: flex;
-        flex-direction: column;
+    .form-fields:nth-of-type(1), .info-card:nth-of-type(1),
+    .form-fields:nth-of-type(2), .info-card:nth-of-type(2),
+    .form-fields:nth-of-type(3), .info-card:nth-of-type(3),
+    .form-fields:nth-of-type(4) {
+        grid-area: auto;
     }
 
 }
