@@ -76,24 +76,68 @@
     <section class="section-FAQ">
         <h2>Questions fréquentes</h2>
         <p>Vous pouvez consulter ci-dessous, nos réponses à vos questions les plus fréquentes afin d'obtenir rapidement les réponses à vos questions.</p>
+            
     </section>
     <section class="section-contact">
         <h2>Nous contacter</h2>
         <p>Vous pouvez nous contacter avec le formulaire de contact ci-dessous afin de nous parler de votre projet.</p>
-        <div class="contact-form">
-            <form action="#" method="post">
-                <label for="name">Prénom</label>
-                <input type="text" id="name" name="Nom" required>
-                <label for="last-name">Nom</label>
-                <input type="text" id="last-name" name="Prénom" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="Email" required>
-                <label for="phone">Numéro de téléphone</label>
-                <input type="tel" id="phone" name="Téléphone" required>
-                <label for="message">Message</label>
-                <textarea id="message" name="Message" required></textarea>
-                <button type="submit" class="primary-btn">Envoyer le message</button>
-            </form>
+        <div class="contact-container">
+            <div class="contact-info">
+                    <h3>Informations</h3>
+                    <div class="contact-info-icon">
+                        <span class="icon-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M256 64C150 64 64 150 64 256s86 192 192 192 192-86 192-192S362 64 256 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M256 128v144h96"/></svg>
+                        </span>
+                        <span>
+                            <h4>Horaire</h4>
+                            <p>Du lundi au vendredi de 10h à 16h</p>
+                        </span>
+                    </div>
+                    <div class="contact-info-icon">
+                        <span class="icon-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M256 48c-79.5 0-144 61.39-144 137 0 87 96 224.87 131.25 272.49a15.77 15.77 0 0025.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="256" cy="192" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+                        </span>
+                        <span>
+                            <h4>Adresse</h4>
+                            <p>35 Place de Preux, 44800 Saint-Herblain</p>
+                        </span>
+                    </div>
+                    <div class="contact-info-icon">
+                        <span class="icon-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M344 48h-24a16 16 0 00-16-16h-96a16 16 0 00-16 16h-24a56.16 56.16 0 00-56 56v247c0 35.3 144 65 144 65s144-29.7 144-65V104a56 56 0 00-56-56zm-88 304a48 48 0 1148-48 48 48 0 01-48 48zm96-160a16 16 0 01-16 16H176a16 16 0 01-16-16v-64a16 16 0 0116-16h160a16 16 0 0116 16zM144 464h224M336 432l48 48M176 432l-48 48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+                        </span>
+                        <span>
+                            <h4>Transport</h4>
+                            <p>Ligne de tramway n°1, arrêt Neruda</p>
+                        </span>
+                    </div>
+                
+            </div>
+            <div class="contact-form">
+                <form action="#" method="post">
+                     <div class="form-fields-container">
+                        <div class="form-fields">  
+                            <label for="name">Prénom</label>
+                            <input type="text" id="name" name="Nom" required>
+                        </div>
+                        <div class="form-fields"> 
+                            <label for="last-name">Nom</label>
+                            <input type="text" id="last-name" name="Prénom" required>
+                        </div>
+                        <div class="form-fields">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="Email" required>
+                        </div>
+                        <div class="form-fields">
+                            <label for="phone">Numéro de téléphone</label>
+                            <input type="tel" id="phone" name="Téléphone" required>
+                        </div>
+                    </div>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="Message" required></textarea>
+                        <button type="submit" class="primary-btn">Envoyer la demande</button>
+                </form>
+            </div>
         </div>
     </section>
     <section class="section-social"></section>
