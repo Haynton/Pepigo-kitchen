@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-   .info-container, .testimonial-container  {
+   .info-container, .testimonial-container, .contact-container {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
@@ -8,6 +8,10 @@
     .grid-2,
     .grid-3 {
         grid-area: auto; /* Réinitialise le placement */
+    }
+    .form-fields-container {
+        display: flex;
+        flex-direction: column;
     }
 
 }
