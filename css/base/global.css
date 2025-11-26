@@ -38,3 +38,11 @@ section h2 + p {
     margin-right: auto;
     text-wrap: balance;
 }   
+.alert {
+    background-color: rgb(245, 220, 222);
+    color: rgb(226, 29, 29);
+    box-sizing: content-box;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
