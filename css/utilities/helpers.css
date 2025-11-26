@@ -1,0 +1,6 @@
+.full-background {
+    padding: 80px 20px;
+    margin: 0 auto;
+    background-color: var(--background-color);
+    max-width: 100%;
+}

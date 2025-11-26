@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    justify-self: center;
 }
 .contact-info h3 {
     font-size: 2rem;
