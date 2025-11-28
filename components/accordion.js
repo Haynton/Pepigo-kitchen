@@ -1,13 +1,13 @@
 const headers = document.querySelectorAll('.accordion-header') // Déclare une constante (const) appelée (headers) + interroge la page (document) + sélectionne tous les éléments avec la classe (accordion-header). Notre constante contient une liste de tous les éléments possédant cette classe.
 
-headers.forEach(function(headerButton) { // Pour chaque élément dans la liste (headers), exécute une fonction. Chaque élément est temporairement appelé (headerButton).
+headers.forEach(headerButton => { // Pour chaque élément dans la liste (headers), exécute une fonction. Chaque élément est temporairement appelé (headerButton).
   
-  headerButton.addEventListener('click', function() { // Écoute les événements de clic sur (headerButton) et exécute tout ce qui est présent dans les accolades.
+  headerButton.addEventListener('click', () => { // Écoute les événements de clic sur (headerButton) et exécute tout ce qui est présent dans les accolades.
     
     const isActive = headerButton.classList.contains('active'); // Déclare une constante (isActive) qui est égale à (true) si (headerButton) contient la classe (active), sinon (false).
     
     // Dans le code ci-dessous on enlève les classes (active) et (show) lors du clic sur un header pour fermer tous les autres qui seraient ouverts.
-    headers.forEach(function(closeHeader) { // Pour chaque élément dans la liste (headers), exécute une fonction. Chaque élément est temporairement appelé (closeHeader).
+    headers.forEach(closeHeader => { // Pour chaque élément dans la liste (headers), exécute une fonction. Chaque élément est temporairement appelé (closeHeader).
       
       closeHeader.classList.remove('active') // Enlève la classe (active) de (closeHeader).
       
