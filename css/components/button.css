@@ -6,3 +6,6 @@
     border-radius: 8px;
     width: fit-content;
 }
+.primary-btn:hover {
+    opacity: 0.8;
+}

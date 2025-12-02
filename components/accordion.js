@@ -28,3 +28,4 @@ headers.forEach(headerButton => { // Pour chaque élément dans la liste (header
     }
   });
 });
+
