@@ -30,6 +30,7 @@
 .hero-img img {
     max-width: 250px;
     border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .hero-img:nth-of-type(1) {
     margin-top: 100px;

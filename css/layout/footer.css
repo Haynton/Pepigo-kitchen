@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    position: relative;
+    background-color: var(--background-color);
+    margin-top: 40px;
+    font-size: 0.8rem;
+}
+.left-foot {
+    min-width: 200px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.left-foot svg {
+    width: 12px;
+    display: flex;
+    align-items: flex-end;
+}
