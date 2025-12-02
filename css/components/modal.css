@@ -35,3 +35,17 @@
 .modal-close-btn svg {
     width: 30px;
 }
+.modal.show .modal-content {
+    animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

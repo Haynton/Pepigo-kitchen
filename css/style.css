@@ -12,7 +12,9 @@
 @import url('./layout/section-testimonial.css');
 @import url('./layout/section-contact.css');
 @import url('./layout/section-pricing.css');
-@import url(./layout/footer.css);
+@import url('./layout/footer.css');
+@import url('./layout/section-forwho.css');
+
 
 
 /* Components Import */
