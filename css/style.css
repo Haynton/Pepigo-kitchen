@@ -15,6 +15,7 @@
 @import url("./layout/footer.css");
 @import url("./layout/section-forwho.css");
 @import url("./layout/section-features.css");
+@import url("./layout/header.css");
 
 /* Components Import */
 @import url("./components/button.css");

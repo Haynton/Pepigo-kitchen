@@ -1,0 +1,19 @@
+.header-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.logo {
+  display: inline-flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text-primary-color);
+}
+.logo svg {
+  width: 35px;
+  fill: var(--text-primary-color);
+}
