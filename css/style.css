@@ -1,31 +1,29 @@
 /* Fichier CSS principal */
 
 /* Base Import */
-@import url('./base/reset.css');
-@import url('./base/variables.css');
-@import url('./base/fonts.css');
-@import url('./base/global.css');
+@import url("./base/reset.css");
+@import url("./base/variables.css");
+@import url("./base/fonts.css");
+@import url("./base/global.css");
 
 /* Layout Import */
-@import url('./layout/section-hero.css');
-@import url('./layout/section-information.css');
-@import url('./layout/section-testimonial.css');
-@import url('./layout/section-contact.css');
-@import url('./layout/section-pricing.css');
-@import url('./layout/footer.css');
-@import url('./layout/section-forwho.css');
-
-
+@import url("./layout/section-hero.css");
+@import url("./layout/section-information.css");
+@import url("./layout/section-testimonial.css");
+@import url("./layout/section-contact.css");
+@import url("./layout/section-pricing.css");
+@import url("./layout/footer.css");
+@import url("./layout/section-forwho.css");
+@import url("./layout/section-features.css");
 
 /* Components Import */
-@import url('./components/button.css');
-@import url('./components/card.css');
-@import url('./components/stars-rating.css');
-@import url('./components/form.css');
-@import url('./components/accordion.css');
-@import url('./components/modal.css');
-
+@import url("./components/button.css");
+@import url("./components/card.css");
+@import url("./components/stars-rating.css");
+@import url("./components/form.css");
+@import url("./components/accordion.css");
+@import url("./components/modal.css");
 
 /* Utilities Import */
-@import url('./utilities/helpers.css');
-@import url('./utilities/responsive.css');
+@import url("./utilities/helpers.css");
+@import url("./utilities/responsive.css");
