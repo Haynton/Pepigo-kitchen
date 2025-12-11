@@ -1,10 +1,13 @@
 :root {
-    --primary-color: #a6a4ac;
-    --secondary-color: #A5B68D;
-    --background-color: #F7F7F7;
-    --max-width-screen: 1200px; 
-    --text-primary-color: #333;
-    --text-secondary-color: #555555;
-    --border-color: #DDD;
-
+  --primary-color: #a6a4ac;
+  --secondary-color: #a5b68d;
+  --background: linear-gradient(
+    225deg,
+    hsla(240, 76%, 97%, 1) 8%,
+    hsla(48, 100%, 97%, 1) 81%
+  );
+  --max-width-screen: 1200px;
+  --text-primary-color: #333;
+  --text-secondary-color: #555555;
+  --border-color: #ddd;
 }

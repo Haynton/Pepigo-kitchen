@@ -36,7 +36,7 @@ section h2 {
 section h2 + p {
   text-align: center;
   margin-bottom: 4rem;
-  font-size: 1em;
+  font-size: 1.1rem;
   color: var(--text-secondary-color);
   max-width: 700px;
   margin-left: auto;
@@ -44,7 +44,7 @@ section h2 + p {
   text-wrap: balance;
 }
 .alert {
-  background-color: rgb(245, 220, 222);
+  background: rgb(245, 220, 222);
   color: rgb(226, 29, 29);
   box-sizing: content-box;
   padding: 10px;

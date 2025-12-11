@@ -1,35 +1,36 @@
 .contact-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.25rem;
 }
 .contact-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  justify-self: center;
 }
 .contact-info h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 .contact-info-icon {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin-bottom: 1.25rem;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 1.25rem;
 }
 .icon-svg {
-    width: 45px;
-    background: var(--background-color);
-    height: 45px;
-    border-radius: 8px;
+  width: 45px;
+  background: var(--background);
+  height: 45px;
+  border-radius: 12px;
 }
 .icon-svg svg {
-    padding: 10px;
-    color: var(--text-secondary-color);
+  padding: 10px;
+  color: var(--text-secondary-color);
 }
-.contact-info-icon h4, .contact-info-icon p {
-    margin-bottom: 2px;
-    margin-top: 2px;
+.contact-info-icon h4,
+.contact-info-icon p {
+  margin-bottom: 2px;
+  margin-top: 2px;
 }
