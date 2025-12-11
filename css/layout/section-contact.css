@@ -21,16 +21,20 @@
 }
 .icon-svg {
   width: 45px;
-  background: var(--background);
+  background: var(--secondary-color);
   height: 45px;
   border-radius: 12px;
 }
 .icon-svg svg {
   padding: 10px;
-  color: var(--text-secondary-color);
+  color: var(--primary-color);
 }
 .contact-info-icon h4,
 .contact-info-icon p {
   margin-bottom: 2px;
   margin-top: 2px;
+}
+.contact-info-icon p {
+  color: var(--text-secondary-color);
+  font-size: 0.9rem;
 }

@@ -4,6 +4,9 @@ body {
   color: var(--text-primary-color);
   scroll-behavior: smooth;
 }
+body {
+  background: var(--background);
+}
 a {
   color: #007bff;
   text-decoration: none;

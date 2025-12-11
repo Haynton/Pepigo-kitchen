@@ -3,9 +3,10 @@ footer {
   justify-content: space-around;
   padding: 30px 20px;
   position: relative;
-  background: var(--background);
+  background: var(--secondary-color);
   margin-top: 40px;
   font-size: 0.8rem;
+  color: var(--primary-color);
 }
 .left-foot {
   min-width: 200px;
@@ -18,4 +19,5 @@ footer {
   width: 12px;
   display: flex;
   align-items: flex-end;
+  fill: var(--primary-color);
 }

@@ -1,11 +1,8 @@
 :root {
-  --primary-color: #a6a4ac;
-  --secondary-color: #a5b68d;
-  --background: linear-gradient(
-    225deg,
-    hsla(240, 76%, 97%, 1) 8%,
-    hsla(48, 100%, 97%, 1) 81%
-  );
+  --primary-color: #d1691e;
+  --secondary-color: #f1d8c6;
+  --background: #f8f6f4;
+  --background-icon: #ededed;
   --max-width-screen: 1200px;
   --text-primary-color: #333;
   --text-secondary-color: #555555;

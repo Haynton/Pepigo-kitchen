@@ -8,7 +8,7 @@
 .who-item {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   font-size: 1.2rem;
   font-weight: 500;
   min-width: 260px;
