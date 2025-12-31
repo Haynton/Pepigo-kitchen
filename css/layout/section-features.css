@@ -4,6 +4,9 @@
   gap: 40px;
   justify-content: space-around;
 }
+.feature-item h3 {
+  color: var(--primary-color);
+}
 .feature-item ul {
   padding-left: 1.5rem;
   margin-left: 0;

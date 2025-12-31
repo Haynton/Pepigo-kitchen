@@ -2,7 +2,8 @@
   .info-container,
   .testimonial-container,
   .contact-container,
-  .form-fields-container {
+  .form-fields-container,
+  .hero-container {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
