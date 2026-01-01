@@ -241,7 +241,10 @@
 
             </div>
             <div class="contact-form">
-                <form action="#" method="post">
+                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                    <input type="hidden" name="bot-field">
+                    <input type="hidden" name="form-name" value="contact">
+
                     <div class="form-fields-container">
                         <div class="form-fields">
                             <label for="name">Prénom</label>
@@ -249,19 +252,19 @@
                         </div>
                         <div class="form-fields">
                             <label for="last-name">Nom</label>
-                            <input type="text" id="last-name" name="Prénom" placeholder="Exemple : Bocuse">
+                            <input type="text" id="last-name" name="Prénom" placeholder="Exemple : Bocuse" required>
                         </div>
                         <div class="form-fields">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="Email" placeholder="Exemple : paul.bocuse@gmail.com">
+                            <input type="email" id="email" name="Email" placeholder="Exemple : paul.bocuse@gmail.com" required>
                         </div>
                         <div class="form-fields">
                             <label for="phone">Numéro de téléphone</label>
-                            <input type="tel" id="phone" name="Téléphone" placeholder="Exemple : 06 39 98 01 02">
+                            <input type="tel" id="phone" name="Téléphone" placeholder="Exemple : 06 39 98 01 02" required>
                         </div>
                     </div>
                     <label for="message">Message</label>
-                    <textarea id="message" name="Message" placeholder="Exemple : &#10; &#10;Je recherche un laboratoire pour réaliser la fabrication de biscuits. &#10; &#10;Le matériel dont j'ai besoin est : un four, un plan de travail et un espace de stockage réfrigéré.&#10; &#10; Je souhaite commercialiser mes produits sur les marchés. &#10; &#10; Je reste disponible pour échanger ou convenir d'une date de visite selon vos disponibilités."></textarea>
+                    <textarea id="message" name="Message" placeholder="Exemple : &#10; &#10;Je recherche un laboratoire pour réaliser la fabrication de biscuits. &#10; &#10;Le matériel dont j'ai besoin est : un four, un plan de travail et un espace de stockage réfrigéré.&#10; &#10; Je souhaite commercialiser mes produits sur les marchés. &#10; &#10; Je reste disponible pour échanger ou convenir d'une date de visite selon vos disponibilités." required></textarea>
                     <button type="submit" class="primary-btn">Envoyer la demande</button>
                 </form>
             </div>
