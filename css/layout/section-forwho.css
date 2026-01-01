@@ -1,29 +1,37 @@
 .who-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 1rem 0;
 }
 .who-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 1.2rem;
-    font-weight: 500;
-    min-width: 260px;
-    padding: 20px;
-    border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  min-width: 260px;
+  padding: 20px;
+  border-radius: 12px;
 }
 .who-item svg {
-    width: 40px;
-    padding: 8px;
-    border-radius: 8px;
+  width: 40px;
+  padding: 8px;
+  border-radius: 12px;
 }
 .icon-green {
-    color: green;
-    background-color: rgb(204, 244, 204);
+  color: green;
+  background: rgb(204, 244, 204);
 }
 .icon-red {
-    fill: rgb(214, 13, 13);
-    background-color: rgb(250, 191, 191);
+  fill: rgb(214, 13, 13);
+  background: rgb(250, 191, 191);
+}
+.section-forwho p:last-child {
+  text-align: center;
+  max-width: 600px;
+  margin: 3rem auto 0 auto;
+  font-size: 0.9rem;
+  color: var(--text-secondary-color);
 }
