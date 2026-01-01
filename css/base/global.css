@@ -20,23 +20,28 @@ h5,
 h6 {
   font-weight: bold;
   margin-bottom: 15px;
+  line-height: 1.6;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
 }
 p {
   margin-bottom: 15px;
   line-height: 1.6;
 }
-section {
+.container {
   padding: 80px 20px;
   max-width: var(--max-width-screen);
   margin: 0 auto;
 }
-section h2 {
+#homepage .container .h2 {
   text-align: center;
   margin-bottom: 1.25rem;
   font-size: 1.6em;
   color: var(--text-primary-color);
 }
-section h2 + p {
+#homepage .container .h2 + p {
   text-align: center;
   margin-bottom: 4rem;
   font-size: 1.1rem;

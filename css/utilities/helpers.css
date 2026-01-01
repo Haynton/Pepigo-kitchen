@@ -7,3 +7,12 @@
   color: var(--primary-color);
   position: relative;
 }
+.m-auto {
+  margin: auto;
+}
+.max-width-400 {
+  max-width: 400px;
+}
+.text-center {
+  text-align: center;
+}

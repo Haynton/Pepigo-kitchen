@@ -1,6 +1,12 @@
 header {
   padding: 20px;
 }
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2em;
+}
 .logo {
   display: inline-flex;
   gap: 20px;

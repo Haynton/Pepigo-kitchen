@@ -5,6 +5,10 @@
   position: relative;
   gap: 60px;
 }
+.pricing-container h2 {
+  font-size: 1.6em;
+  color: var(--text-primary-color);
+}
 .pricing-container h2,
 .pricing-container p {
   text-align: left;
@@ -13,6 +17,8 @@
   margin-bottom: 1em;
 }
 .pricing-container p {
+  color: var(--text-secondary-color);
+  font-size: 1.1rem;
   color: var(--text-secondary-color);
 }
 .pricing-card {

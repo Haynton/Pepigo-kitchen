@@ -52,3 +52,9 @@ textarea:focus {
 .contact-form textarea::placeholder {
   font-size: 0.8rem;
 }
+
+.cta-forms {
+  display: flex;
+  justify-content: end;
+  margin-top: 3em;
+}
