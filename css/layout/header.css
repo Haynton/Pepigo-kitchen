@@ -1,19 +1,24 @@
-.header-container {
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 10px;
+header {
+  padding: 20px;
 }
 .logo {
   display: inline-flex;
   gap: 20px;
   align-items: center;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: var(--text-primary-color);
 }
 .logo svg {
-  width: 35px;
-  fill: var(--text-primary-color);
+  width: 30px;
+  fill: var(--primary-color);
+}
+.logo span {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

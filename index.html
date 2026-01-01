@@ -10,7 +10,17 @@
 
 <body>
     <header>
-
+        <div class="header-container">
+            <a href="/" class="logo">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" viewBox="0 0 341 341">
+                        <path d="M68.2 136.4 0 68.2h68.2V0l68.2 68.2h68.2L341 204.6h-68.2l-68.2-68.2v68.2h-68.2l68.2 68.2V341L68.2 204.6v-68.2Z"/>
+                    </svg>
+                </span>
+                
+                Pepigo Kitchen
+            </a>
+        </div>
     </header>
     <section class="section-hero">
         <div class="hero-container">
@@ -108,7 +118,7 @@
     </section>
     <section class="section-forwho">
         <h2>Découvrez si notre cuisine est faite pour vous</h2>
-        <p>Notre laboratoire partagée, vous permet de réaliser vos préparations, et de les stocker avant d'aller faire la commercialisation de vos produits ailleurs.</p>
+        <p>Notre laboratoire partagé, vous permet de réaliser vos préparations et de les stocker avant d'aller faire la commercialisation de vos produits ailleurs.</p>
         <div class="who-container">
             <div class="who-item"><svg xmlns="http://www.w3.org/2000/svg" class="icon-green" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10" stroke-width="44" d="M416 128L192 384l-96-96"/></svg>Activité traiteur</div>
             <div class="who-item"><svg xmlns="http://www.w3.org/2000/svg" class="icon-green" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10" stroke-width="44" d="M416 128L192 384l-96-96"/></svg>Patissier·e</div>
@@ -247,7 +257,7 @@
 
                     <div class="form-fields-container">
                         <div class="form-fields">
-                            <label for="name">Prénom</label>
+                            <label for="name">Prénom </label>
                             <input type="text" id="name" name="Nom" placeholder="Exemple : Paul" required>
                         </div>
                         <div class="form-fields">
@@ -267,6 +277,17 @@
                     <textarea id="message" name="Message" placeholder="Exemple : &#10; &#10;Je recherche un laboratoire pour réaliser la fabrication de biscuits. &#10; &#10;Le matériel dont j'ai besoin est : un four, un plan de travail et un espace de stockage réfrigéré.&#10; &#10; Je souhaite commercialiser mes produits sur les marchés. &#10; &#10; Je reste disponible pour échanger ou convenir d'une date de visite selon vos disponibilités." required></textarea>
                     <button type="submit" class="primary-btn">Envoyer la demande</button>
                 </form>
+                        <form name="contact-test" netlify>
+                        <p>
+                            <label>Name <input type="text" name="name" /></label>
+                        </p>
+                        <p>
+                            <label>Email <input type="email" name="email" /></label>
+                        </p>
+                        <p>
+                            <button type="submit">Send</button>
+                        </p>
+                        </form>
             </div>
         </div>
     </section>
