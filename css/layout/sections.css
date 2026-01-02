@@ -192,6 +192,7 @@
   justify-self: center;
   width: 100%;
 }
-.contact-info h3 {
-  font-size: 2rem;
+.h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0em;
 }

@@ -5,6 +5,7 @@
   color: #fff;
   border-radius: 10px;
   width: fit-content;
+  height: fit-content;
 }
 .primary-btn:hover {
   opacity: 0.8;
@@ -17,6 +18,8 @@
   border: 1px solid var(--border-color);
   border-radius: 10px;
   line-height: 1.5;
+  width: fit-content;
+  height: fit-content;
 }
 .secondary-btn:hover {
   color: var(--primary-color);
