@@ -1,5 +1,5 @@
 footer {
-  background: var(--secondary-color);
+  border-top: 1px solid var(--border-color);
   margin-top: 40px;
 }
 .footer {
@@ -8,7 +8,7 @@ footer {
   position: relative;
   max-width: var(--max-width-screen);
   font-size: 0.8rem;
-  padding: 40px 20px;
+  padding: 30px 20px;
   color: var(--primary-color);
   margin: auto;
 }

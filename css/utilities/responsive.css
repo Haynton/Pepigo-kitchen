@@ -28,6 +28,25 @@
   .subtitle {
     text-align: left;
   }
+  .container,
+  .full-background {
+    padding: 20px;
+  }
+  .subtitle {
+    margin-bottom: 2rem;
+  }
+  .pricing-section {
+    gap: 20px;
+  }
+  .customer-section p:last-child {
+    text-align: left;
+  }
+  .hero-section {
+    margin: 1em auto;
+  }
+  .accordion-header h3 {
+    font-size: 1rem;
+  }
 }
 
 /*  < 1400px — Homepage carousel */

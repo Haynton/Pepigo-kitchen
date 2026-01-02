@@ -20,6 +20,9 @@
   position: relative;
   padding: 20px 0px;
 }
+.accordion-header h3 {
+  margin-bottom: 0;
+}
 .accordion-header.active {
   border-bottom: none;
 }
