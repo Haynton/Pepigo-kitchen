@@ -8,7 +8,6 @@ body {
   background: var(--background);
 }
 a {
-  color: #007bff;
   text-decoration: none;
 }
 
@@ -35,13 +34,13 @@ p {
   max-width: var(--max-width-screen);
   margin: 0 auto;
 }
-#homepage .container .h2 {
+.h2 {
   text-align: center;
   margin-bottom: 1.25rem;
   font-size: 1.6em;
   color: var(--text-primary-color);
 }
-#homepage .container .h2 + p {
+.subtitle {
   text-align: center;
   margin-bottom: 4rem;
   font-size: 1.1rem;
@@ -50,12 +49,4 @@ p {
   margin-left: auto;
   margin-right: auto;
   text-wrap: balance;
-}
-.alert {
-  background: rgb(245, 220, 222);
-  color: rgb(226, 29, 29);
-  box-sizing: content-box;
-  padding: 10px;
-  border-radius: 4px;
-  font-size: 0.8rem;
 }

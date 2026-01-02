@@ -24,7 +24,7 @@ textarea:focus {
   font-size: 0.9rem;
   color: var(--text-secondary-color);
 }
-.form-fields-container {
+.grid-form-fields {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);

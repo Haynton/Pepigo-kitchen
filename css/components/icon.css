@@ -1,0 +1,63 @@
+/* Info icon */
+
+.item-info-icon svg {
+  padding: 10px;
+  color: var(--primary-color);
+  width: 60px;
+  margin-bottom: 0.5rem;
+}
+
+/* Checklist icon */
+
+.item-checklist-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  min-width: 260px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.item-checklist-icon svg {
+  width: 40px;
+  padding: 8px;
+  border-radius: 12px;
+}
+.icon-green {
+  color: green;
+  background: rgb(204, 244, 204);
+}
+.icon-red {
+  fill: rgb(214, 13, 13);
+  background: rgb(250, 191, 191);
+}
+
+/* Contact icon */
+
+.item-contact {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+.item-contact-icon {
+  width: 45px;
+  background: var(--secondary-color);
+  height: 45px;
+  border-radius: 12px;
+}
+.item-contact-icon svg {
+  padding: 10px;
+  color: var(--primary-color);
+}
+.item-contact h4,
+.item-contact p {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+.item-contact p {
+  color: var(--text-secondary-color);
+  font-size: 0.9rem;
+}

@@ -7,13 +7,8 @@
 @import url("./base/global.css");
 
 /* Layout Import */
-@import url("./layout/section-hero.css");
-@import url("./layout/section-information.css");
-@import url("./layout/section-contact.css");
-@import url("./layout/section-pricing.css");
+@import url("./layout/sections.css");
 @import url("./layout/footer.css");
-@import url("./layout/section-forwho.css");
-@import url("./layout/section-features.css");
 @import url("./layout/header.css");
 
 /* Components Import */
@@ -21,6 +16,7 @@
 @import url("./components/card.css");
 @import url("./components/form.css");
 @import url("./components/accordion.css");
+@import url("./components/icon.css");
 
 /* Utilities Import */
 @import url("./utilities/helpers.css");

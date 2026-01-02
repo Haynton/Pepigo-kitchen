@@ -27,9 +27,12 @@
   content: "+";
   font-size: 1.5rem;
   color: var(--primary-color);
+  transition: transform 0.3s ease;
+  padding: 2px 8px;
+  border-radius: 50%;
 }
 .accordion-header.active::after {
-  content: "−";
+  transform: rotate(45deg);
 }
 .accordion-content {
   line-height: 1.5;

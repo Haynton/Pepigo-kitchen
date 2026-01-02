@@ -19,7 +19,7 @@ header {
   width: 30px;
   fill: var(--primary-color);
 }
-.logo span {
+.logo-background {
   background-color: var(--secondary-color);
   border-radius: 50%;
   width: 50px;
