@@ -25,3 +25,9 @@
   color: var(--primary-color);
   border-color: var(--primary-color);
 }
+button:focus-visible,
+.btn-primary:focus-visible,
+.btn-secondary:focus-visible {
+  outline: 3px solid var(--primary-color);
+  outline-offset: 2px;
+}

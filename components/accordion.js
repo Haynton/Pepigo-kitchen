@@ -20,4 +20,10 @@ headers.forEach((header) => {
       content.style.maxHeight = 0;
     }
   });
+  header.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      header.click();
+    }
+  });
 });

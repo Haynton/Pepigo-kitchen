@@ -29,6 +29,10 @@ p {
   margin-bottom: 15px;
   line-height: 1.6;
 }
+a:focus-visible {
+  outline: 3px solid var(--primary-color);
+  outline-offset: 2px;
+}
 .container {
   padding: 80px 20px;
   max-width: var(--max-width-screen);

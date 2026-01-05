@@ -31,7 +31,7 @@
   font-size: 1.5rem;
   color: var(--primary-color);
   transition: transform 0.3s ease;
-  padding: 2px 8px;
+  padding: 1px 11px 6px 11px;
   border-radius: 50%;
 }
 .accordion-header.active::after {
@@ -43,4 +43,19 @@
   color: var(--text-secondary-color);
   transition: max-height 0.5s ease;
   max-height: 0;
+}
+
+/* Accessible focus styles */
+
+.accordion-header:focus-visible::after {
+  outline: 3px solid var(--primary-color);
+  outline-offset: 2px;
+}
+.accordion-header.active:focus-visible,
+.accordion-header:focus-visible {
+  outline: none;
+}
+.accordion-header.active:focus-visible::after {
+  outline: 3px solid var(--primary-color);
+  outline-offset: 2px;
 }
