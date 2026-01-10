@@ -1,25 +1,23 @@
 .primary-btn {
-  display: inline-block;
+  display: inline-flex;
   padding: 16px 20px;
   background: var(--primary-color);
+  border: 1px solid var(--primary-color);
   color: #fff;
   border-radius: 10px;
-  width: fit-content;
-  height: fit-content;
+  align-items: center;
 }
 .primary-btn:hover {
   opacity: 0.8;
 }
 
 .secondary-btn {
-  display: inline-block;
+  display: inline-flex;
   padding: 16px 20px;
   color: var(--text-primary-color);
   border: 1px solid var(--border-color);
   border-radius: 10px;
-  line-height: 1.5;
-  width: fit-content;
-  height: fit-content;
+  align-items: center;
 }
 .secondary-btn:hover {
   color: var(--primary-color);
@@ -30,4 +28,7 @@ button:focus-visible,
 .btn-secondary:focus-visible {
   outline: 3px solid var(--primary-color);
   outline-offset: 2px;
+}
+button.primary-btn {
+  align-self: flex-start;
 }
