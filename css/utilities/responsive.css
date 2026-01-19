@@ -15,7 +15,9 @@
   .form-fields:nth-of-type(4) {
     grid-area: auto;
   }
-
+  .nav-menu {
+    display: none;
+  }
   .customer-items {
     justify-content: flex-start;
   }
@@ -72,7 +74,7 @@
   }
   .hero-content {
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 6rem;
   }
 
   .hero-gallery::-webkit-scrollbar {
@@ -102,6 +104,7 @@
 @media (max-width: 767px) {
   .hero-content {
     margin-bottom: 2rem;
+    margin-top: 2rem;
   }
   .hero-gallery > .hero-img {
     width: 20rem;
