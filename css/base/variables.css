@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #944e04;
-  --secondary-color: #f1d8c6;
+  --primary-color: darkolivegreen;
+  --secondary-color: rgb(213, 232, 180);
   --background: #f8f6f4;
   --background-icon: #ededed;
   --max-width-screen: 1200px;

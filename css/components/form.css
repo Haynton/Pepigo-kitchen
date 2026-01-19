@@ -6,7 +6,7 @@
 .contact-form input,
 textarea {
   padding: 16px 20px;
-  border-radius: 10px;
+  border-radius: 6px;
   border: 1px solid var(--border-color);
   margin-bottom: 15px;
   background-color: #fff;
