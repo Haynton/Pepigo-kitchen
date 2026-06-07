@@ -18,11 +18,8 @@ footer {
   align-items: center;
   font-size: 0.8rem;
 }
-.left-foot svg {
-  width: 12px;
-  display: flex;
-  align-items: flex-end;
-  fill: var(--primary-color);
+.left-foot a {
+  color: var(--primary-color);
 }
 .right-foot a {
   color: var(--primary-color);
