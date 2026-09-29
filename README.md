@@ -1,62 +1,80 @@
 # Pepigo Kitchen
 
-Site vitrine one-page pour **Pepigo Kitchen**, une cuisine professionnelle partagée à Saint-Herblain (Nantes), destinée aux entrepreneurs de l'alimentaire, traiteurs et artisans.
+A responsive one-page website for Pepigo Kitchen, a shared professional kitchen in Saint-Herblain (Nantes, France) for food entrepreneurs, caterers and artisans.
 
-🌐 **[pepigo-kitchen.fr](https://www.pepigo-kitchen.fr)**
+**Live:** [www.pepigo-kitchen.fr](https://www.pepigo-kitchen.fr)
 
----
+> The website is written in French, since it targets local French-speaking food professionals.
 
-## Aperçu
+## Context
 
-Pepigo Kitchen propose la location d'un laboratoire professionnel équipé, en formule mensuelle sans engagement. Le site présente l'offre, les équipements, les profils ciblés, les tarifs et un formulaire de contact.
+Pepigo Kitchen rents a fully equipped professional kitchen on a flexible monthly plan with no long-term commitment. The goal of the site is to turn a visitor into a contact: present the offer, the equipment and the target audience, then make it easy to send an inquiry.
 
-## Stack technique
+## Features
 
-- **HTML5** · structure sémantique, balises `<section>`, `<nav>`, `<header>`, `<footer>`
-- **CSS3** · styles personnalisés (sans framework), responsive design
-- **JavaScript (module ES)** · accordéon FAQ interactif
-- **Netlify** · hébergement + formulaire de contact natif (Netlify Forms)
+- One-page layout with anchor navigation: hero gallery, about, equipment, target profiles, pricing, FAQ and contact
+- Interactive FAQ accordion in vanilla JavaScript (one item open at a time, animated, keyboard operable)
+- Contact form handled by Netlify Forms, with a honeypot field against spam and a confirmation page after submission
+- Legal notice page and a custom 404 page
+- Responsive layout
 
-## Structure du projet
+## Technical details
+
+- **Stack:** semantic HTML5, custom CSS3 (no framework), vanilla JavaScript (ES module)
+- **CSS architecture:** split into small files by responsibility (`base`, `components`, `layout`, `utilities`), with CSS variables and a single entry stylesheet
+- **Accessibility:** `lang` attribute, descriptive `alt` text, labels linked to form fields, `autocomplete` attributes, focusable accordion headers usable with Enter and Space
+- **SEO and sharing:** meta description, Open Graph and Twitter Card tags
+- **Performance:** WebP images, priority hint on the hero image, inline SVG icons (no icon library, no extra requests)
+- **Icons and metadata:** full favicon set and a web app manifest
+- **Hosting:** Netlify, with automatic deployment on every push
+
+## Project structure
 
 ```
-Pepigo-kitchen/
-├── assets/          # Images (.webp) et favicons
-├── components/      # Scripts JS (accordion.js)
-├── css/             # Feuille de style principale
-├── legal/           # Page mentions légales
-├── success/         # Page de confirmation après envoi du formulaire
-├── 404.html         # Page d'erreur personnalisée
-├── index.html       # Page principale
-└── site.webmanifest # Manifest PWA
+.
+├── assets/
+│   ├── favicon/          # favicons and touch icons
+│   └── images/           # kitchen photos (WebP)
+├── components/
+│   └── accordion.js      # FAQ accordion (ES module)
+├── css/
+│   ├── base/             # reset, global styles, variables
+│   ├── components/       # accordion, button, card, form, icon
+│   ├── layout/           # header, footer, sections
+│   ├── utilities/        # helpers, responsive rules
+│   └── style.css         # main entry point
+├── legal/                # legal notice page
+├── success/              # form confirmation page
+├── 404.html              # custom error page
+├── index.html            # main page
+└── site.webmanifest      # web app manifest
 ```
 
-## Sections du site
+## Run locally
 
-- **Hero** — accroche et galerie photos
-- **À propos** — présentation de la cuisine partagée
-- **Équipements** — détail du matériel disponible (cuisson, postes de travail, stockage, lavage)
-- **Pour qui ?** — profils compatibles (traiteur, pâtissier, chocolatier, food truck, chef à domicile) et exclusions (dark kitchen, ateliers)
-- **Tarifs** — formule unique à 600 € HT/mois, sans engagement
-- **FAQ** — accordéon avec réponses aux questions fréquentes
-- **Contact** — formulaire Netlify Forms + informations pratiques (adresse, transports, horaires)
-
-## Lancer le projet en local
-
-Aucune dépendance à installer. Ouvrir `index.html` directement dans un navigateur, ou utiliser un serveur local :
+No dependencies to install. Open `index.html` in a browser, or use a local server:
 
 ```bash
+git clone https://github.com/Haynton/Pepigo-kitchen.git
+cd Pepigo-kitchen
 npx serve .
-# ou
+# or
 python3 -m http.server
 ```
 
-> Le formulaire de contact nécessite un déploiement sur Netlify pour fonctionner (Netlify Forms).
+> The contact form only works once deployed on Netlify (Netlify Forms).
 
-## Déploiement
+## Deployment
 
-Le site est déployé via **Netlify** avec détection automatique des formulaires HTML.
+The site is deployed on Netlify. Each push triggers a new deployment automatically, and Netlify detects the HTML form and handles submissions.
 
----
+## What I learned
 
-*Réalisé par [Anthony Quenet](https://www.anthonyquenet.com)*
+- Structuring a growing stylesheet into small, maintainable CSS modules without a framework
+- Building a reusable accordion in vanilla JavaScript, with keyboard support
+- Setting up a serverless contact flow with Netlify Forms, including spam protection and a confirmation page
+- Designing a site around a business goal: getting qualified inquiries from a specific audience
+
+## Author
+
+Built by [Anthony Quenet](https://www.anthonyquenet.com) ([@Haynton](https://github.com/Haynton)).
