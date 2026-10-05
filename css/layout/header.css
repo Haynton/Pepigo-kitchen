@@ -10,16 +10,15 @@ header {
 }
 .logo {
   display: inline-flex;
-  gap: 8px;
+  gap: 4px;
   align-items: center;
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--text-primary-color);
 }
 .logo svg {
-  width: 35px;
+  width: 65px;
   fill: var(--primary-color);
-  transform: rotate(45deg);
 }
 .logo-background {
   display: flex;
