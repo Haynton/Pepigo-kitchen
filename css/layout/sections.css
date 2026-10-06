@@ -117,29 +117,17 @@
   position: relative;
   gap: 60px;
 }
-.pricing-section h2 {
-  font-size: 1.6em;
-  color: var(--text-primary-color);
-}
-.pricing-section h2,
-.pricing-section p {
-  text-align: left;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 1em;
-}
-.pricing-section p {
-  color: var(--text-secondary-color);
-  font-size: 1.1rem;
-  color: var(--text-secondary-color);
-}
 .pricing-card {
   min-width: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   max-width: 400px;
+  padding: 0px 40px;
   width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  background: #fff;
 }
 .pricing-card svg {
   width: 20px;
@@ -152,15 +140,28 @@
   border-radius: 50%;
 }
 .pricing-card-head {
-  padding: 20px 0px;
-}
-.pricing-card-head span:first-child {
-  font-size: 2rem;
   font-weight: 500;
+  padding: 40px 0px;
+  border-bottom: 1px solid var(--border-color);
+}
+.pricing-title-card {
+  font-size: 1.8em;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+.subtitle-pricing-card {
+  font-size: 0.9em;
+  margin-bottom: 2.5rem;
+}
+.price {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 0 5px 0 5px;
 }
 .pricing-card-body {
   display: flex;
   flex-direction: column;
+  padding: 40px 0px;
 }
 .pricing-card-body span {
   display: inline-flex;

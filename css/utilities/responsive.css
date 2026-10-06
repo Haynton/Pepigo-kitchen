@@ -48,9 +48,6 @@
     margin: 2rem 0 0 0;
     max-width: 100%;
   }
-  .pricing-card:last-child {
-    max-width: 400px;
-  }
   .hero-section {
     margin: 1em auto;
   }
